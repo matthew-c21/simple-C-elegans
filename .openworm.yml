@@ -1,7 +1,7 @@
 repo: openworm/simple-C-elegans
 shortDescription: "Minimalist Python code -- based on OpenWorm and the published literature -- for modeling C. elegans neural network dynamics"
 coordinator: stephen@openworm.org
-documentation: "https://github.com/openworm/simple-C-elegans/blob/master/notebooks/simple-C-elegans.ipynb
+documentation: "https://github.com/openworm/simple-C-elegans/blob/master/notebooks/simple-C-elegans.ipynb"
 gitter: "http://gitter.im/openworm/OpenWorm"
 keywords: 
   - data
