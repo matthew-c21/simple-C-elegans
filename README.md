@@ -12,3 +12,11 @@ http://arxiv.org/abs/1310.6689
 
 Wicks, Stephen R., Chris J. Roehrig, and Catharine H. Rankin. "A dynamic network simulation of the nematode tap withdrawal circuit: predictions concerning synaptic function using behavioral criteria." The Journal of neuroscience 16.12 (1996): 4017-4031.
 http://www.jneurosci.org/content/16/12/4017.short
+
+Quickstart
+----------
+
+1. Install [Docker](http://docker.com) on your machine
+2. Clone this repo
+3. Either run ./run-notebook.sh or grab the docker command inside that script and run it on the command prompt (Windows)
+4. Navigate your browser to http://localhost:8888 and choose the notebook
