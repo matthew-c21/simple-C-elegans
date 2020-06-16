@@ -8,25 +8,13 @@ R_m = 16 * 1e-12     # 16 GOhms
 V_leak = -35 * 1e-3  # 35 mV
 V_eq = 0
 
-def constant(k):
-    return lambda _: k
-
-
-def pulse(k, T):
-    def f(t):
-        t = t % T
-        return 0 if t > (T / 2) else k
-
-    return f
-
-
 def Vprime(V, t, I_ext = None):
     i = 0 if I_ext is None else I_ext(t)
     return ((V_leak - V) / R_m + i) / C_m
 
 
 def main(args = None):
-    t = np.linspace(1, 500) / 1000
+    t = np.linspace(0, 1500) / 1000
     V = odeint(Vprime, V_eq, t, args = args)
 
     plt.plot(t, V)
