@@ -2,3 +2,4 @@ ode_soln.p
 .DS_Store
 */.ipynb_checkpoints/*
 **/__pycache__/
+exported_sessions/
